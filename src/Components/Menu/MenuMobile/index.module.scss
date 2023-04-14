@@ -1,0 +1,39 @@
+.main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 61px;
+}
+.basket{
+  position: relative;
+  &__amountItems{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 17px;
+    height: 17px;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 12px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #FFC85E;
+    border: 3px solid #FFFFFF;
+    border-radius: 50%;
+
+    position: absolute;
+    top: -12px;
+    right: -10px;
+  }
+}
+.button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 32px;
+  width: 32px;
+  padding: 12px;
+  border: none;
+  background: #FFC85E;
+  border-radius: 50%;
+}

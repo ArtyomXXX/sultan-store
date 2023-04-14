@@ -1,0 +1,104 @@
+.main {
+  display: flex;
+  min-height: 61px;
+  align-items: center;
+  justify-content: space-between;
+  @media screen and (min-width: 0px) and (max-width: 1257px) {
+    & {
+      flex-direction: column;
+
+      & > div {
+        margin-top: 20px;
+      }
+
+      & > div:last-child {
+        margin-bottom: 20px;
+      }
+    }
+  }
+}
+
+.contacts {
+  display: flex;
+  @media screen and (min-width: 0px) and (max-width: 693px) {
+    & {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  }
+}
+
+.links {
+  display: flex;
+  @media screen and (min-width: 0px) and (max-width: 693px) {
+    & {
+    flex-direction: column;
+      & > .item {
+        padding: 0;
+      }
+    }
+  }
+  & > .item:hover{
+    cursor: pointer;
+  }
+  & > .item:not(:last-child) {
+    padding-right: 30px;
+    min-height: 29px;
+    border-right: 1px dashed #dadde1;
+    @media screen and (min-width: 0px) and (max-width: 693px) {
+      & {
+       border: none;
+        padding: 0;
+      }
+    }
+  }
+
+  .item:not(:first-child) {
+    padding-left: 30px;
+    @media screen and (min-width: 0px) and (max-width: 693px) {
+      & {
+        padding: 0;
+      }
+    }
+  }
+
+}
+
+
+.address {
+  max-height: 39px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-right: 1px dashed #dadde1;
+  padding-right: 20px;
+  @media screen and (min-width: 0px) and (max-width: 693px) {
+    & {
+      border: none;
+      padding: 0;
+    }
+  }
+
+  &__img {
+    margin-right: 18px;
+  }
+}
+
+
+.email {
+  max-height: 39px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 20px;
+  @media screen and (min-width: 0px) and (max-width: 693px) {
+    & {
+      margin-top: 10px;
+      padding: 0;
+    }
+  }
+
+  &__img {
+    margin-right: 16px;
+  }
+}

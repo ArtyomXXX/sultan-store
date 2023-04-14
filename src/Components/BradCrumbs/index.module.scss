@@ -1,0 +1,12 @@
+.navigate {
+  padding-top: 45px;
+  padding-bottom: 50px;
+  display: flex;
+  align-items: center;
+  @media screen and (min-width: 0px) and (max-width: 480px) {
+    & {
+      padding-top: 20px;
+      padding-bottom: 25px;
+    }
+  }
+}

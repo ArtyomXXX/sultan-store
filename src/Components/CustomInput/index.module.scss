@@ -1,0 +1,37 @@
+.main {
+  display: flex;
+  justify-content: space-between;
+  height: 59px;
+  padding: 10px 10px 10px 20px;
+  background: #EDEDED;
+  border-radius: 36px;
+
+  &>input {
+    padding: 0;
+    border: none;
+    background: none;
+    color: #5C6370;
+    opacity: 0.6;
+    width: 100%;
+
+    &:focus {
+      outline: none;
+    }
+  }
+
+  &>button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 39px;
+    min-height: 39px;
+    border: none;
+    background: #FFC85E;
+    border-radius: 50%;
+
+    &:hover {
+      cursor: pointer;
+      border: 1px solid gray;
+    }
+  }
+}

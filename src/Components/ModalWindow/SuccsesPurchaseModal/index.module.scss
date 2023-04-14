@@ -1,0 +1,78 @@
+.overlay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.7);
+  overflow: hidden;
+
+  position: fixed;
+  top: 0;
+  z-index: 1;
+}
+
+.box {
+  margin: 0 15px;
+  padding: 36px;
+  width: 735px;
+  height: 424px;
+  background: #FFFFFF;
+  border-radius: 8px;
+  overflow: auto;
+  z-index: 1;
+
+  @media screen and (min-width: 0px) and (max-width: 480px) {
+    & {
+      max-height: 288px;
+      padding: 10px;
+    }
+  }
+}
+
+.closeBTN {
+  display: flex;
+  justify-content: end;
+
+  &>button {
+    border: none;
+    background: none;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  margin: 67px 0 24px;
+
+  @media screen and (min-width: 0px) and (max-width: 480px) {
+    & {
+      margin: 26px 0 20px;
+    }
+  }
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  font-weight: 500;
+  font-size: 40px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #111111;
+  margin-bottom: 20px;
+}
+
+.description {
+  display: flex;
+  justify-content: center;
+  font-weight: 300;
+  font-size: 20px;
+  text-align: center;
+  color: #3F4E65;
+}

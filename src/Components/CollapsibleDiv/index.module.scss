@@ -1,0 +1,23 @@
+.main {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  font-size: 16px;
+  color: #111111;
+  -webkit-user-select: none;
+  user-select: none;
+  margin-bottom: 15px;
+
+  &:hover {
+    cursor: pointer;
+  }
+
+  &>img {
+    margin-left: 5px;
+  }
+}

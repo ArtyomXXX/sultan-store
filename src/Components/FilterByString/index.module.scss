@@ -1,0 +1,31 @@
+.button {
+  margin-top: 5px;
+  font-weight: 500;
+  font-size: 12px;
+  color: #3F4E65;
+  border: none;
+  background: none;
+
+  &>img {
+    margin-left: 5px;
+  }
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.title {
+  margin: 30px 0 15px;
+  font-weight: 500;
+  font-size: 16px;
+  color: #111111;
+}
+
+.items {
+  margin-top: 15px;
+
+  &>div:not(:last-child) {
+    margin-bottom: 5px;
+  }
+}

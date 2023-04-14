@@ -1,0 +1,91 @@
+.filterPanel {
+  &__priceTitle {
+    font-weight: 300;
+    font-size: 14px;
+    color: #3F4E65;
+    margin: 10px 0 16px;
+
+    &>b {
+      font-weight: 500;
+      font-size: 14px;
+      color: #111111;
+    }
+  }
+
+  &__title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 500;
+    font-size: 16px;
+    color: #111111;
+
+    @media screen and (min-width: 0px) and (max-width: 480px) {
+      & {
+        margin: 19px 0 10px;
+      }
+    }
+
+    &>button {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: #FFCA65;
+      opacity: 0.5;
+      border-radius: 50%;
+      border: none;
+      height: 32px;
+      width: 32px;
+    }
+  }
+
+  &__submit {
+    font-weight: 700;
+    font-size: 14px;
+    color: #FFFFFF;
+    border: none;
+    background: #FFC85E;
+    border-radius: 79px;
+    padding: 21px 51px 21px 51px;
+
+    @media screen and (min-width: 0px) and (max-width: 480px) {
+      & {
+        padding: 21px 26%;
+        justify-content: space-between;
+      }
+    }
+  }
+
+  &__reset {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    padding: 21px;
+    border: none;
+    background: #FFC85E;
+    border-radius: 79px;
+
+    @media screen and (min-width: 0px) and (max-width: 480px) {
+      & {
+        margin: 0;
+      }
+    }
+  }
+
+  &__btns {
+    display: flex;
+    margin-top: 20px;
+
+    &>button:hover {
+      cursor: pointer;
+    }
+
+    @media screen and (min-width: 0px) and (max-width: 480px) {
+      & {
+        margin-bottom: 40px;
+        justify-content: space-between;
+      }
+    }
+  }
+}

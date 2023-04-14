@@ -1,0 +1,23 @@
+.main {
+  display: flex;
+  align-items: center;
+
+  &>input {
+    width: 100px;
+    font-weight: 300;
+    font-size: 12px;
+    text-align: center;
+    color: #3F4E65;
+    padding: 4px 0;
+    border: none;
+    background: linear-gradient(90deg, rgba(255, 198, 80, 0.3) 0%, rgba(254, 202, 110, 0.3) 97.25%);
+    border-radius: 1000px;
+  }
+
+  &>span {
+    font-weight: 500;
+    font-size: 14px;
+    color: #3F4E65;
+    margin: 0 10px;
+  }
+}
